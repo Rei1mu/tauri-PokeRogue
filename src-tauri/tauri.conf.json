@@ -1,0 +1,34 @@
+{
+  "productName": "pokerogue",
+  "version": "0.1.0",
+  "identifier": "me.rei1mu.pokerogue",
+  "build": {
+    "frontendDist": "../dist"
+  },
+  "app": {
+    "windows": [
+      {
+        "title": "PokeRogue_非官方汉化版_群468390221_contorl=z_x_c_space_↑↓←→_____rebuild_by_bili_kiriame",
+        "width": 1280,
+        "height": 720,
+        "resizable": true,
+        "userAgent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Mobile Safari/537.36 Edg/125.0.0.0",
+        "fullscreen": false
+      }
+    ],
+    "security": {
+      "csp": null
+    }
+  },
+  "bundle": {
+    "active": true,
+    "targets": "all",
+    "icon": [
+      "icons/32x32.png",
+      "icons/128x128.png",
+      "icons/128x128@2x.png",
+      "icons/icon.icns",
+      "icons/icon.ico"
+    ]
+  }
+}
